@@ -14,19 +14,19 @@ public extension Dictionary {
     /// - Parameters:
     ///   - key: key
     ///   - value: value
-    mutating func safeUpdate(_ key :Dictionary.Key , _ value :Dictionary.Value?) {
-        if let object = value {
-            self[key] = object
+    mutating func safeUpdate(_ key :Dictionary.Key? , _ value :Dictionary.Value?) {
+        if let key = key, let value = value {
+            self[key] = value
         }
     }
     
     /// 安全 value for key
     /// - Parameter key: key
     /// - Returns: value 可选
-    func safeValueForKey(_ key : Dictionary.Key ) -> Dictionary.Value? {
-        guard let object = self[key] else {
+    func safeValueForKey(_ key : Dictionary.Key?) -> Dictionary.Value? {
+        guard let key = key, let value = self[key] else {
             return nil
         }
-        return object
+        return value
     }
 }

@@ -13,16 +13,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
          
-        // Dictionary
-        var dic = Dictionary<String, Any>()
-//        dic.safeUpdate("key1", 123)
-//        print(dic.safeValueForKey("123"))
-        var a: String? = ""
-        a = nil
-//        dic[a!] = 123
-        
-        dic.safeUpdate(a!, 123)
-        print("")
+//        // Dictionary
+//        var dic = Dictionary<String, Any>()
+////        dic.safeUpdate("key1", 123)
+////        print(dic.safeValueForKey("123"))
+//        var a: String? = ""
+////        a = nil
+////        dic[a!] = 123
+//        dic.safeUpdate(a, 123)
+//        dic.safeUpdate("a", 123)
+//        print("")
         
     }
 

@@ -7,16 +7,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7C900551-2706-439F-AF95-F66B64198C1C"
+            uuid = "79B1C09A-7999-4112-8DFD-AD23DAD244D7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftSafe/ViewController.swift"
+            filePath = "SwiftSafeTests/SwiftSafeTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "testDictionary()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "79B1C09A-7999-4112-8DFD-AD23DAD244D7 - c4607a254b65f7c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSafeTests.SwiftSafeTests.testDictionary() -&gt; ()"
+                  moduleName = "SwiftSafeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nxglab/Desktop/SwiftSafe/SwiftSafe/SwiftSafeTests/SwiftSafeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "79B1C09A-7999-4112-8DFD-AD23DAD244D7 - c4607a254b65f7c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSafeTests.SwiftSafeTests.testDictionary() -&gt; ()"
+                  moduleName = "SwiftSafeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nxglab/Desktop/SwiftSafe/SwiftSafe/SwiftSafeTests/SwiftSafeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B59D5ADC-39A3-434B-8533-FC547212DDFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftSafe/Extension/Dictionary+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "safeValueForKey(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

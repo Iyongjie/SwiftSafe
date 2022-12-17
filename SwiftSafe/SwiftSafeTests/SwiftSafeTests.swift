@@ -56,5 +56,19 @@ class SwiftSafeTests: XCTestCase {
         
     }
     
+    // MARK: - Dictionary
+    func testDictionary() {
+        var dic = Dictionary<String, Any>()
+        
+        var a: String? = ""
+        a = nil
+//        dic[a] = 123
+        dic.safeUpdate(a, 123)
+        dic.safeUpdate("a", 123)
+        
+        
+        let result = dic.safeValueForKey(a)
+        print(result)
+    }
     
 }
